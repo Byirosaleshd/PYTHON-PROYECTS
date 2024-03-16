@@ -1,0 +1,836 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "pi",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "my_module",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "my_module",
+        "description": "my_module",
+        "detail": "my_module",
+        "documentation": {}
+    },
+    {
+        "label": "sumValue",
+        "importPath": "my_module",
+        "description": "my_module",
+        "isExtraImport": true,
+        "detail": "my_module",
+        "documentation": {}
+    },
+    {
+        "label": "printValue",
+        "importPath": "my_module",
+        "description": "my_module",
+        "isExtraImport": true,
+        "detail": "my_module",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "my_string_variable",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "my_string_variable = \"My String variable\"\nprint(my_string_variable)\nmy_int_variable = 5\nprint(my_int_variable)\nmy_int_to_str_variable = str(my_int_variable)\nprint(my_int_to_str_variable)\nprint(type(my_int_to_str_variable))\nmy_bool_variable = False\nprint(my_bool_variable)\n# Concatenación de variables en un print",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "my_int_variable",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "my_int_variable = 5\nprint(my_int_variable)\nmy_int_to_str_variable = str(my_int_variable)\nprint(my_int_to_str_variable)\nprint(type(my_int_to_str_variable))\nmy_bool_variable = False\nprint(my_bool_variable)\n# Concatenación de variables en un print\nprint(my_string_variable, my_int_to_str_variable, my_bool_variable)\nprint(\"Este es el valor de:\", my_bool_variable)",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "my_int_to_str_variable",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "my_int_to_str_variable = str(my_int_variable)\nprint(my_int_to_str_variable)\nprint(type(my_int_to_str_variable))\nmy_bool_variable = False\nprint(my_bool_variable)\n# Concatenación de variables en un print\nprint(my_string_variable, my_int_to_str_variable, my_bool_variable)\nprint(\"Este es el valor de:\", my_bool_variable)\n# Algunas funciones del sistema\nprint(len(my_string_variable))",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "my_bool_variable",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "my_bool_variable = False\nprint(my_bool_variable)\n# Concatenación de variables en un print\nprint(my_string_variable, my_int_to_str_variable, my_bool_variable)\nprint(\"Este es el valor de:\", my_bool_variable)\n# Algunas funciones del sistema\nprint(len(my_string_variable))\n# Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!\nname, surname, alias, age = \"Brais\", \"Moure\", 'MoureDev', 35\nprint(\"Me llamo:\", name, surname, \". Mi edad es:\",",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "name = input('¿Cuál es tu nombre? ')\nage = input('¿Cuántos años tienes? ')\nprint(name)\nprint(age)\n# Cambiamos su tipo\nname = 35\nage = \"Brais\"\nprint(name)\nprint(age)\n# ¿Forzamos el tipo?",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "age = input('¿Cuántos años tienes? ')\nprint(name)\nprint(age)\n# Cambiamos su tipo\nname = 35\nage = \"Brais\"\nprint(name)\nprint(age)\n# ¿Forzamos el tipo?\naddress: str = \"Mi dirección\"",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "name = 35\nage = \"Brais\"\nprint(name)\nprint(age)\n# ¿Forzamos el tipo?\naddress: str = \"Mi dirección\"\naddress = True\naddress = 5\naddress = 1.2\nprint(type(address))",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "age = \"Brais\"\nprint(name)\nprint(age)\n# ¿Forzamos el tipo?\naddress: str = \"Mi dirección\"\naddress = True\naddress = 5\naddress = 1.2\nprint(type(address))",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "address",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "address = True\naddress = 5\naddress = 1.2\nprint(type(address))",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "address",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "address = 5\naddress = 1.2\nprint(type(address))",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "address",
+        "kind": 5,
+        "importPath": "Basico.01_variables",
+        "description": "Basico.01_variables",
+        "peekOfCode": "address = 1.2\nprint(type(address))",
+        "detail": "Basico.01_variables",
+        "documentation": {}
+    },
+    {
+        "label": "my_float",
+        "kind": 5,
+        "importPath": "Basico.02_operators",
+        "description": "Basico.02_operators",
+        "peekOfCode": "my_float = 2.5 * 2\nprint(\"Hola \" * int(my_float))\n### Operadores Comparativos ###\n# Operaciones con enteros\nprint(3 > 4)\nprint(3 < 4)\nprint(3 >= 4)\nprint(4 <= 4)\nprint(3 == 4)\nprint(3 != 4)",
+        "detail": "Basico.02_operators",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "my_string = \"Mi String\"\nmy_other_string = 'Mi otro String'\nprint(len(my_string))\nprint(len(my_other_string))\nprint(my_string + \" \" + my_other_string)\nmy_new_line_string = \"Este es un String\\ncon salto de línea\"\nprint(my_new_line_string)\nmy_tab_string = \"\\tEste es un String con tabulación\"\nprint(my_tab_string)\nmy_scape_string = \"\\\\tEste es un String \\\\n escapado\"",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_string",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "my_other_string = 'Mi otro String'\nprint(len(my_string))\nprint(len(my_other_string))\nprint(my_string + \" \" + my_other_string)\nmy_new_line_string = \"Este es un String\\ncon salto de línea\"\nprint(my_new_line_string)\nmy_tab_string = \"\\tEste es un String con tabulación\"\nprint(my_tab_string)\nmy_scape_string = \"\\\\tEste es un String \\\\n escapado\"\nprint(my_scape_string)",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_new_line_string",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "my_new_line_string = \"Este es un String\\ncon salto de línea\"\nprint(my_new_line_string)\nmy_tab_string = \"\\tEste es un String con tabulación\"\nprint(my_tab_string)\nmy_scape_string = \"\\\\tEste es un String \\\\n escapado\"\nprint(my_scape_string)\n# Formateo\nname, surname, age = \"Brais\", \"Moure\", 35\nprint(\"Mi nombre es {} {} y mi edad es {}\".format(name, surname, age))\nprint(\"Mi nombre es %s %s y mi edad es %d\" % (name, surname, age))",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_tab_string",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "my_tab_string = \"\\tEste es un String con tabulación\"\nprint(my_tab_string)\nmy_scape_string = \"\\\\tEste es un String \\\\n escapado\"\nprint(my_scape_string)\n# Formateo\nname, surname, age = \"Brais\", \"Moure\", 35\nprint(\"Mi nombre es {} {} y mi edad es {}\".format(name, surname, age))\nprint(\"Mi nombre es %s %s y mi edad es %d\" % (name, surname, age))\nprint(\"Mi nombre es \" + name + \" \" + surname + \" y mi edad es \" + str(age))\nprint(f\"Mi nombre es {name} {surname} y mi edad es {age}\")",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_scape_string",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "my_scape_string = \"\\\\tEste es un String \\\\n escapado\"\nprint(my_scape_string)\n# Formateo\nname, surname, age = \"Brais\", \"Moure\", 35\nprint(\"Mi nombre es {} {} y mi edad es {}\".format(name, surname, age))\nprint(\"Mi nombre es %s %s y mi edad es %d\" % (name, surname, age))\nprint(\"Mi nombre es \" + name + \" \" + surname + \" y mi edad es \" + str(age))\nprint(f\"Mi nombre es {name} {surname} y mi edad es {age}\")\n# Desempaqueado de caracteres\nlanguage = \"python\"",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "language",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "language = \"python\"\na, b, c, d, e, f = language\nprint(a)\nprint(e)\n# División\nlanguage_slice = language[1:3]\nprint(language_slice)\nlanguage_slice = language[1:]\nprint(language_slice)\nlanguage_slice = language[-2]",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "language_slice",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "language_slice = language[1:3]\nprint(language_slice)\nlanguage_slice = language[1:]\nprint(language_slice)\nlanguage_slice = language[-2]\nprint(language_slice)\nlanguage_slice = language[0:6:2]\nprint(language_slice)\n# Reverse\nreversed_language = language[::-1]",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "language_slice",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "language_slice = language[1:]\nprint(language_slice)\nlanguage_slice = language[-2]\nprint(language_slice)\nlanguage_slice = language[0:6:2]\nprint(language_slice)\n# Reverse\nreversed_language = language[::-1]\nprint(reversed_language)\n# Funciones del lenguaje",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "language_slice",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "language_slice = language[-2]\nprint(language_slice)\nlanguage_slice = language[0:6:2]\nprint(language_slice)\n# Reverse\nreversed_language = language[::-1]\nprint(reversed_language)\n# Funciones del lenguaje\nprint(language.capitalize())\nprint(language.upper())",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "language_slice",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "language_slice = language[0:6:2]\nprint(language_slice)\n# Reverse\nreversed_language = language[::-1]\nprint(reversed_language)\n# Funciones del lenguaje\nprint(language.capitalize())\nprint(language.upper())\nprint(language.count(\"t\"))\nprint(language.isnumeric())",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "reversed_language",
+        "kind": 5,
+        "importPath": "Basico.03_strings",
+        "description": "Basico.03_strings",
+        "peekOfCode": "reversed_language = language[::-1]\nprint(reversed_language)\n# Funciones del lenguaje\nprint(language.capitalize())\nprint(language.upper())\nprint(language.count(\"t\"))\nprint(language.isnumeric())\nprint(\"1\".isnumeric())\nprint(language.lower())\nprint(language.lower().isupper())",
+        "detail": "Basico.03_strings",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Basico.04_list",
+        "description": "Basico.04_list",
+        "peekOfCode": "my_list = list()\nmy_other_list = []\nprint(len(my_list))\nmy_list = [35, 24, 62, 52, 30, 30, 17]\nprint(my_list)\nprint(len(my_list))\nmy_other_list = [35, 1.77, \"Brais\", \"Moure\"]\nprint(type(my_list))\nprint(type(my_other_list))\n# Acceso a elementos y búsqueda",
+        "detail": "Basico.04_list",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_list",
+        "kind": 5,
+        "importPath": "Basico.04_list",
+        "description": "Basico.04_list",
+        "peekOfCode": "my_other_list = []\nprint(len(my_list))\nmy_list = [35, 24, 62, 52, 30, 30, 17]\nprint(my_list)\nprint(len(my_list))\nmy_other_list = [35, 1.77, \"Brais\", \"Moure\"]\nprint(type(my_list))\nprint(type(my_other_list))\n# Acceso a elementos y búsqueda\nprint(my_other_list[0])",
+        "detail": "Basico.04_list",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Basico.04_list",
+        "description": "Basico.04_list",
+        "peekOfCode": "my_list = [35, 24, 62, 52, 30, 30, 17]\nprint(my_list)\nprint(len(my_list))\nmy_other_list = [35, 1.77, \"Brais\", \"Moure\"]\nprint(type(my_list))\nprint(type(my_other_list))\n# Acceso a elementos y búsqueda\nprint(my_other_list[0])\nprint(my_other_list[1])\nprint(my_other_list[-1])",
+        "detail": "Basico.04_list",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_list",
+        "kind": 5,
+        "importPath": "Basico.04_list",
+        "description": "Basico.04_list",
+        "peekOfCode": "my_other_list = [35, 1.77, \"Brais\", \"Moure\"]\nprint(type(my_list))\nprint(type(my_other_list))\n# Acceso a elementos y búsqueda\nprint(my_other_list[0])\nprint(my_other_list[1])\nprint(my_other_list[-1])\nprint(my_other_list[-4])\nprint(my_list.count(30))\n# print(my_other_list[4]) IndexError",
+        "detail": "Basico.04_list",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_list[1]",
+        "kind": 5,
+        "importPath": "Basico.04_list",
+        "description": "Basico.04_list",
+        "peekOfCode": "my_other_list[1] = \"Azul\"\nprint(my_other_list)\nmy_other_list.remove(\"Azul\")\nprint(my_other_list)\nmy_list.remove(30)\nprint(my_list)\nprint(my_list.pop())\nprint(my_list)\nmy_pop_element = my_list.pop(2)\nprint(my_pop_element)",
+        "detail": "Basico.04_list",
+        "documentation": {}
+    },
+    {
+        "label": "my_pop_element",
+        "kind": 5,
+        "importPath": "Basico.04_list",
+        "description": "Basico.04_list",
+        "peekOfCode": "my_pop_element = my_list.pop(2)\nprint(my_pop_element)\nprint(my_list)\ndel my_list[2]\nprint(my_list)\n# Operaciones con listas\nmy_new_list = my_list.copy()\nmy_list.clear()\nprint(my_list)\nprint(my_new_list)",
+        "detail": "Basico.04_list",
+        "documentation": {}
+    },
+    {
+        "label": "my_new_list",
+        "kind": 5,
+        "importPath": "Basico.04_list",
+        "description": "Basico.04_list",
+        "peekOfCode": "my_new_list = my_list.copy()\nmy_list.clear()\nprint(my_list)\nprint(my_new_list)\nmy_new_list.reverse()\nprint(my_new_list)\nmy_new_list.sort()\nprint(my_new_list)\n# Sublistas\nprint(my_new_list[1:3])",
+        "detail": "Basico.04_list",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Basico.04_list",
+        "description": "Basico.04_list",
+        "peekOfCode": "my_list = \"Hola Python\"\nprint(my_list)\nprint(type(my_list))",
+        "detail": "Basico.04_list",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Basico.05_tuples",
+        "description": "Basico.05_tuples",
+        "peekOfCode": "my_tuple = tuple()\nmy_other_tuple = ()\nmy_tuple = (35, 1.77, \"Brais\", \"Moure\", \"Brais\")\nmy_other_tuple = (35, 60, 30)\nprint(my_tuple)\nprint(type(my_tuple))\n# Acceso a elementos y búsqueda\nprint(my_tuple[0])\nprint(my_tuple[-1])\n# print(my_tuple[4]) IndexError",
+        "detail": "Basico.05_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_tuple",
+        "kind": 5,
+        "importPath": "Basico.05_tuples",
+        "description": "Basico.05_tuples",
+        "peekOfCode": "my_other_tuple = ()\nmy_tuple = (35, 1.77, \"Brais\", \"Moure\", \"Brais\")\nmy_other_tuple = (35, 60, 30)\nprint(my_tuple)\nprint(type(my_tuple))\n# Acceso a elementos y búsqueda\nprint(my_tuple[0])\nprint(my_tuple[-1])\n# print(my_tuple[4]) IndexError\n# print(my_tuple[-6]) IndexError",
+        "detail": "Basico.05_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Basico.05_tuples",
+        "description": "Basico.05_tuples",
+        "peekOfCode": "my_tuple = (35, 1.77, \"Brais\", \"Moure\", \"Brais\")\nmy_other_tuple = (35, 60, 30)\nprint(my_tuple)\nprint(type(my_tuple))\n# Acceso a elementos y búsqueda\nprint(my_tuple[0])\nprint(my_tuple[-1])\n# print(my_tuple[4]) IndexError\n# print(my_tuple[-6]) IndexError\nprint(my_tuple.count(\"Brais\"))",
+        "detail": "Basico.05_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_tuple",
+        "kind": 5,
+        "importPath": "Basico.05_tuples",
+        "description": "Basico.05_tuples",
+        "peekOfCode": "my_other_tuple = (35, 60, 30)\nprint(my_tuple)\nprint(type(my_tuple))\n# Acceso a elementos y búsqueda\nprint(my_tuple[0])\nprint(my_tuple[-1])\n# print(my_tuple[4]) IndexError\n# print(my_tuple[-6]) IndexError\nprint(my_tuple.count(\"Brais\"))\nprint(my_tuple.index(\"Moure\"))",
+        "detail": "Basico.05_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "my_sum_tuple",
+        "kind": 5,
+        "importPath": "Basico.05_tuples",
+        "description": "Basico.05_tuples",
+        "peekOfCode": "my_sum_tuple = my_tuple + my_other_tuple\nprint(my_sum_tuple)\n# Subtuplas\nprint(my_sum_tuple[3:6])\n# Tupla mutable con conversión a lista\nmy_tuple = list(my_tuple)\nprint(type(my_tuple))\nmy_tuple[4] = \"MoureDev\"\nmy_tuple.insert(1, \"Azul\")\nmy_tuple = tuple(my_tuple)",
+        "detail": "Basico.05_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Basico.05_tuples",
+        "description": "Basico.05_tuples",
+        "peekOfCode": "my_tuple = list(my_tuple)\nprint(type(my_tuple))\nmy_tuple[4] = \"MoureDev\"\nmy_tuple.insert(1, \"Azul\")\nmy_tuple = tuple(my_tuple)\nprint(my_tuple)\nprint(type(my_tuple))\n# Eliminación\n# del my_tuple[2] TypeError: 'tuple' object doesn't support item deletion\ndel my_tuple",
+        "detail": "Basico.05_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple[4]",
+        "kind": 5,
+        "importPath": "Basico.05_tuples",
+        "description": "Basico.05_tuples",
+        "peekOfCode": "my_tuple[4] = \"MoureDev\"\nmy_tuple.insert(1, \"Azul\")\nmy_tuple = tuple(my_tuple)\nprint(my_tuple)\nprint(type(my_tuple))\n# Eliminación\n# del my_tuple[2] TypeError: 'tuple' object doesn't support item deletion\ndel my_tuple\n# print(my_tuple) NameError: name 'my_tuple' is not defined",
+        "detail": "Basico.05_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Basico.05_tuples",
+        "description": "Basico.05_tuples",
+        "peekOfCode": "my_tuple = tuple(my_tuple)\nprint(my_tuple)\nprint(type(my_tuple))\n# Eliminación\n# del my_tuple[2] TypeError: 'tuple' object doesn't support item deletion\ndel my_tuple\n# print(my_tuple) NameError: name 'my_tuple' is not defined",
+        "detail": "Basico.05_tuples",
+        "documentation": {}
+    },
+    {
+        "label": "my_set",
+        "kind": 5,
+        "importPath": "Basico.06_sets",
+        "description": "Basico.06_sets",
+        "peekOfCode": "my_set = set()\nmy_other_set = {}\nprint(type(my_set))\nprint(type(my_other_set))  # Inicialmente es un diccionario\nmy_other_set = {\"Brais\", \"Moure\", 35}\nprint(type(my_other_set))\nprint(len(my_other_set))\n# Inserción\nmy_other_set.add(\"MoureDev\")\nprint(my_other_set)  # Un set no es una estructura ordenada",
+        "detail": "Basico.06_sets",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_set",
+        "kind": 5,
+        "importPath": "Basico.06_sets",
+        "description": "Basico.06_sets",
+        "peekOfCode": "my_other_set = {}\nprint(type(my_set))\nprint(type(my_other_set))  # Inicialmente es un diccionario\nmy_other_set = {\"Brais\", \"Moure\", 35}\nprint(type(my_other_set))\nprint(len(my_other_set))\n# Inserción\nmy_other_set.add(\"MoureDev\")\nprint(my_other_set)  # Un set no es una estructura ordenada\nmy_other_set.add(\"MoureDev\")  # Un set no admite repetidos",
+        "detail": "Basico.06_sets",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_set",
+        "kind": 5,
+        "importPath": "Basico.06_sets",
+        "description": "Basico.06_sets",
+        "peekOfCode": "my_other_set = {\"Brais\", \"Moure\", 35}\nprint(type(my_other_set))\nprint(len(my_other_set))\n# Inserción\nmy_other_set.add(\"MoureDev\")\nprint(my_other_set)  # Un set no es una estructura ordenada\nmy_other_set.add(\"MoureDev\")  # Un set no admite repetidos\nprint(my_other_set)\n# Búsqueda\nprint(\"Moure\" in my_other_set)",
+        "detail": "Basico.06_sets",
+        "documentation": {}
+    },
+    {
+        "label": "my_set",
+        "kind": 5,
+        "importPath": "Basico.06_sets",
+        "description": "Basico.06_sets",
+        "peekOfCode": "my_set = {\"Brais\", \"Moure\", 35}\nmy_list = list(my_set)\nprint(my_list)\nprint(my_list[0])\nmy_other_set = {\"Kotlin\", \"Swift\", \"Python\"}\n# Otras operaciones\nmy_new_set = my_set.union(my_other_set)\nprint(my_new_set.union(my_new_set).union(my_set).union({\"JavaScript\", \"C#\"}))\nprint(my_new_set.difference(my_set))",
+        "detail": "Basico.06_sets",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Basico.06_sets",
+        "description": "Basico.06_sets",
+        "peekOfCode": "my_list = list(my_set)\nprint(my_list)\nprint(my_list[0])\nmy_other_set = {\"Kotlin\", \"Swift\", \"Python\"}\n# Otras operaciones\nmy_new_set = my_set.union(my_other_set)\nprint(my_new_set.union(my_new_set).union(my_set).union({\"JavaScript\", \"C#\"}))\nprint(my_new_set.difference(my_set))",
+        "detail": "Basico.06_sets",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_set",
+        "kind": 5,
+        "importPath": "Basico.06_sets",
+        "description": "Basico.06_sets",
+        "peekOfCode": "my_other_set = {\"Kotlin\", \"Swift\", \"Python\"}\n# Otras operaciones\nmy_new_set = my_set.union(my_other_set)\nprint(my_new_set.union(my_new_set).union(my_set).union({\"JavaScript\", \"C#\"}))\nprint(my_new_set.difference(my_set))",
+        "detail": "Basico.06_sets",
+        "documentation": {}
+    },
+    {
+        "label": "my_new_set",
+        "kind": 5,
+        "importPath": "Basico.06_sets",
+        "description": "Basico.06_sets",
+        "peekOfCode": "my_new_set = my_set.union(my_other_set)\nprint(my_new_set.union(my_new_set).union(my_set).union({\"JavaScript\", \"C#\"}))\nprint(my_new_set.difference(my_set))",
+        "detail": "Basico.06_sets",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_dict = dict()\nmy_other_dict = {}\nprint(type(my_dict))\nprint(type(my_other_dict))\nmy_other_dict = {\"Nombre\": \"Brais\",\n                 \"Apellido\": \"Moure\", \"Edad\": 35, 1: \"Python\"}\nmy_dict = {\n    \"Nombre\": \"Brais\",\n    \"Apellido\": \"Moure\",\n    \"Edad\": 35,",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_dict",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_other_dict = {}\nprint(type(my_dict))\nprint(type(my_other_dict))\nmy_other_dict = {\"Nombre\": \"Brais\",\n                 \"Apellido\": \"Moure\", \"Edad\": 35, 1: \"Python\"}\nmy_dict = {\n    \"Nombre\": \"Brais\",\n    \"Apellido\": \"Moure\",\n    \"Edad\": 35,\n    \"Lenguajes\": {\"Python\", \"Swift\", \"Kotlin\"},",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_dict",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_other_dict = {\"Nombre\": \"Brais\",\n                 \"Apellido\": \"Moure\", \"Edad\": 35, 1: \"Python\"}\nmy_dict = {\n    \"Nombre\": \"Brais\",\n    \"Apellido\": \"Moure\",\n    \"Edad\": 35,\n    \"Lenguajes\": {\"Python\", \"Swift\", \"Kotlin\"},\n    1: 1.77\n}\nprint(my_other_dict)",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_dict = {\n    \"Nombre\": \"Brais\",\n    \"Apellido\": \"Moure\",\n    \"Edad\": 35,\n    \"Lenguajes\": {\"Python\", \"Swift\", \"Kotlin\"},\n    1: 1.77\n}\nprint(my_other_dict)\nprint(my_dict)\nprint(len(my_other_dict))",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict[\"Calle\"]",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_dict[\"Calle\"] = \"Calle MoureDev\"\nprint(my_dict)\n# Actualización\nmy_dict[\"Nombre\"] = \"Pedro\"\nprint(my_dict[\"Nombre\"])\n# Eliminación\ndel my_dict[\"Calle\"]\nprint(my_dict)\n# Otras operaciones\nprint(my_dict.items())",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict[\"Nombre\"]",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_dict[\"Nombre\"] = \"Pedro\"\nprint(my_dict[\"Nombre\"])\n# Eliminación\ndel my_dict[\"Calle\"]\nprint(my_dict)\n# Otras operaciones\nprint(my_dict.items())\nprint(my_dict.keys())\nprint(my_dict.values())\nmy_list = [\"Nombre\", 1, \"Piso\"]",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_list = [\"Nombre\", 1, \"Piso\"]\nmy_new_dict = dict.fromkeys((my_list))\nprint(my_new_dict)\nmy_new_dict = dict.fromkeys((\"Nombre\", 1, \"Piso\"))\nprint((my_new_dict))\nmy_new_dict = dict.fromkeys(my_dict)\nprint((my_new_dict))\nmy_new_dict = dict.fromkeys(my_dict, \"MoureDev\")\nprint((my_new_dict))\nmy_values = my_new_dict.values()",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_new_dict",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_new_dict = dict.fromkeys((my_list))\nprint(my_new_dict)\nmy_new_dict = dict.fromkeys((\"Nombre\", 1, \"Piso\"))\nprint((my_new_dict))\nmy_new_dict = dict.fromkeys(my_dict)\nprint((my_new_dict))\nmy_new_dict = dict.fromkeys(my_dict, \"MoureDev\")\nprint((my_new_dict))\nmy_values = my_new_dict.values()\nprint(type(my_values))",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_new_dict",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_new_dict = dict.fromkeys((\"Nombre\", 1, \"Piso\"))\nprint((my_new_dict))\nmy_new_dict = dict.fromkeys(my_dict)\nprint((my_new_dict))\nmy_new_dict = dict.fromkeys(my_dict, \"MoureDev\")\nprint((my_new_dict))\nmy_values = my_new_dict.values()\nprint(type(my_values))\nprint(my_new_dict.values())\nprint(list(dict.fromkeys(list(my_new_dict.values())).keys()))",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_new_dict",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_new_dict = dict.fromkeys(my_dict)\nprint((my_new_dict))\nmy_new_dict = dict.fromkeys(my_dict, \"MoureDev\")\nprint((my_new_dict))\nmy_values = my_new_dict.values()\nprint(type(my_values))\nprint(my_new_dict.values())\nprint(list(dict.fromkeys(list(my_new_dict.values())).keys()))\nprint(tuple(my_new_dict))\nprint(set(my_new_dict))",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_new_dict",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_new_dict = dict.fromkeys(my_dict, \"MoureDev\")\nprint((my_new_dict))\nmy_values = my_new_dict.values()\nprint(type(my_values))\nprint(my_new_dict.values())\nprint(list(dict.fromkeys(list(my_new_dict.values())).keys()))\nprint(tuple(my_new_dict))\nprint(set(my_new_dict))",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_values",
+        "kind": 5,
+        "importPath": "Basico.07_dicts",
+        "description": "Basico.07_dicts",
+        "peekOfCode": "my_values = my_new_dict.values()\nprint(type(my_values))\nprint(my_new_dict.values())\nprint(list(dict.fromkeys(list(my_new_dict.values())).keys()))\nprint(tuple(my_new_dict))\nprint(set(my_new_dict))",
+        "detail": "Basico.07_dicts",
+        "documentation": {}
+    },
+    {
+        "label": "my_condition",
+        "kind": 5,
+        "importPath": "Basico.08_conditionals",
+        "description": "Basico.08_conditionals",
+        "peekOfCode": "my_condition = False\nif my_condition:  # Es lo mismo que if my_condition == True:\n    print(\"Se ejecuta la condición del if\")\nmy_condition = 5 * 5\nif my_condition == 10:\n    print(\"Se ejecuta la condición del segundo if\")\n# if, elif, else\nif my_condition > 10 and my_condition < 20:\n    print(\"Es mayor que 10 y menor que 20\")\nelif my_condition == 25:",
+        "detail": "Basico.08_conditionals",
+        "documentation": {}
+    },
+    {
+        "label": "my_condition",
+        "kind": 5,
+        "importPath": "Basico.08_conditionals",
+        "description": "Basico.08_conditionals",
+        "peekOfCode": "my_condition = 5 * 5\nif my_condition == 10:\n    print(\"Se ejecuta la condición del segundo if\")\n# if, elif, else\nif my_condition > 10 and my_condition < 20:\n    print(\"Es mayor que 10 y menor que 20\")\nelif my_condition == 25:\n    print(\"Es igual a 25\")\nelse:\n    print(\"Es menor o igual que 10 o mayor o igual que 20 o distinto de 25\")",
+        "detail": "Basico.08_conditionals",
+        "documentation": {}
+    },
+    {
+        "label": "my_string",
+        "kind": 5,
+        "importPath": "Basico.08_conditionals",
+        "description": "Basico.08_conditionals",
+        "peekOfCode": "my_string = \"\"\nif not my_string:\n    print(\"Mi cadena de texto es vacía\")\nif my_string == \"Mi cadena de textoooooo\":\n    print(\"Estas cadenas de texto coinciden\")",
+        "detail": "Basico.08_conditionals",
+        "documentation": {}
+    },
+    {
+        "label": "my_condition",
+        "kind": 5,
+        "importPath": "Basico.09_loops",
+        "description": "Basico.09_loops",
+        "peekOfCode": "my_condition = 0\nwhile my_condition < 10:\n    print(my_condition)\n    my_condition += 2\nelse:  # Es opcional\n    print(\"Mi condición es mayor o igual que 10\")\nprint(\"La ejecución continúa\")\nwhile my_condition < 20:\n    my_condition += 1\n    if my_condition == 15:",
+        "detail": "Basico.09_loops",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "Basico.09_loops",
+        "description": "Basico.09_loops",
+        "peekOfCode": "my_list = [35, 24, 62, 52, 30, 30, 17]\nfor element in my_list:\n    print(element)\nmy_tuple = (35, 1.77, \"Brais\", \"Moure\", \"Brais\")\nfor element in my_tuple:\n    print(element)\nmy_set = {\"Brais\", \"Moure\", 35}\nfor element in my_set:\n    print(element)\nmy_dict = {\"Nombre\": \"Brais\", \"Apellido\": \"Moure\", \"Edad\": 35, 1: \"Python\"}",
+        "detail": "Basico.09_loops",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "Basico.09_loops",
+        "description": "Basico.09_loops",
+        "peekOfCode": "my_tuple = (35, 1.77, \"Brais\", \"Moure\", \"Brais\")\nfor element in my_tuple:\n    print(element)\nmy_set = {\"Brais\", \"Moure\", 35}\nfor element in my_set:\n    print(element)\nmy_dict = {\"Nombre\": \"Brais\", \"Apellido\": \"Moure\", \"Edad\": 35, 1: \"Python\"}\nfor element in my_dict:\n    print(element)\n    if element == \"Edad\":",
+        "detail": "Basico.09_loops",
+        "documentation": {}
+    },
+    {
+        "label": "my_set",
+        "kind": 5,
+        "importPath": "Basico.09_loops",
+        "description": "Basico.09_loops",
+        "peekOfCode": "my_set = {\"Brais\", \"Moure\", 35}\nfor element in my_set:\n    print(element)\nmy_dict = {\"Nombre\": \"Brais\", \"Apellido\": \"Moure\", \"Edad\": 35, 1: \"Python\"}\nfor element in my_dict:\n    print(element)\n    if element == \"Edad\":\n        break\nelse:\n    print(\"El bluce for para diccionario ha finalizado\")",
+        "detail": "Basico.09_loops",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "Basico.09_loops",
+        "description": "Basico.09_loops",
+        "peekOfCode": "my_dict = {\"Nombre\": \"Brais\", \"Apellido\": \"Moure\", \"Edad\": 35, 1: \"Python\"}\nfor element in my_dict:\n    print(element)\n    if element == \"Edad\":\n        break\nelse:\n    print(\"El bluce for para diccionario ha finalizado\")\nprint(\"La ejecución continúa\")\nfor element in my_dict:\n    print(element)",
+        "detail": "Basico.09_loops",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "Basico.10_functions",
+        "description": "Basico.10_functions",
+        "peekOfCode": "def my_function():\n    print(\"Esto es una función\")\nmy_function()\nmy_function()\nmy_function()\n# Función con parámetros de entrada/argumentos\ndef sum_two_values(first_value: int, second_value):\n    print(first_value + second_value)\nsum_two_values(5, 7)\nsum_two_values(54754, 71231)",
+        "detail": "Basico.10_functions",
+        "documentation": {}
+    },
+    {
+        "label": "sum_two_values",
+        "kind": 2,
+        "importPath": "Basico.10_functions",
+        "description": "Basico.10_functions",
+        "peekOfCode": "def sum_two_values(first_value: int, second_value):\n    print(first_value + second_value)\nsum_two_values(5, 7)\nsum_two_values(54754, 71231)\nsum_two_values(\"5\", \"7\")\nsum_two_values(1.4, 5.2)\n# Función con parámetros de entrada/argumentos y retorno\ndef sum_two_values_with_return(first_value, second_value):\n    my_sum = first_value + second_value\n    return my_sum",
+        "detail": "Basico.10_functions",
+        "documentation": {}
+    },
+    {
+        "label": "sum_two_values_with_return",
+        "kind": 2,
+        "importPath": "Basico.10_functions",
+        "description": "Basico.10_functions",
+        "peekOfCode": "def sum_two_values_with_return(first_value, second_value):\n    my_sum = first_value + second_value\n    return my_sum\nmy_result = sum_two_values(1.4, 5.2)\nprint(my_result)\nmy_result = sum_two_values_with_return(10, 5)\nprint(my_result)\n# Función con parámetros de entrada/argumentos por clave\ndef print_name(name, surname):\n    print(f\"{name} {surname}\")",
+        "detail": "Basico.10_functions",
+        "documentation": {}
+    },
+    {
+        "label": "print_name",
+        "kind": 2,
+        "importPath": "Basico.10_functions",
+        "description": "Basico.10_functions",
+        "peekOfCode": "def print_name(name, surname):\n    print(f\"{name} {surname}\")\nprint_name(surname=\"Moure\", name=\"Brais\")\n# Función con parámetros de entrada/argumentos por defecto\ndef print_name_with_default(name, surname, alias=\"Sin alias\"):\n    print(f\"{name} {surname} {alias}\")\nprint_name_with_default(\"Brais\", \"Moure\")\nprint_name_with_default(\"Brais\", \"Moure\", \"MoureDev\")\n# Función con parámetros de entrada/argumentos arbitrarios\ndef print_upper_texts(*texts):",
+        "detail": "Basico.10_functions",
+        "documentation": {}
+    },
+    {
+        "label": "print_name_with_default",
+        "kind": 2,
+        "importPath": "Basico.10_functions",
+        "description": "Basico.10_functions",
+        "peekOfCode": "def print_name_with_default(name, surname, alias=\"Sin alias\"):\n    print(f\"{name} {surname} {alias}\")\nprint_name_with_default(\"Brais\", \"Moure\")\nprint_name_with_default(\"Brais\", \"Moure\", \"MoureDev\")\n# Función con parámetros de entrada/argumentos arbitrarios\ndef print_upper_texts(*texts):\n    print(type(texts))\n    for text in texts:\n        print(text.upper())\nprint_upper_texts(\"Hola\", \"Python\", \"MoureDev\")",
+        "detail": "Basico.10_functions",
+        "documentation": {}
+    },
+    {
+        "label": "print_upper_texts",
+        "kind": 2,
+        "importPath": "Basico.10_functions",
+        "description": "Basico.10_functions",
+        "peekOfCode": "def print_upper_texts(*texts):\n    print(type(texts))\n    for text in texts:\n        print(text.upper())\nprint_upper_texts(\"Hola\", \"Python\", \"MoureDev\")\nprint_upper_texts(\"Hola\")",
+        "detail": "Basico.10_functions",
+        "documentation": {}
+    },
+    {
+        "label": "my_result",
+        "kind": 5,
+        "importPath": "Basico.10_functions",
+        "description": "Basico.10_functions",
+        "peekOfCode": "my_result = sum_two_values(1.4, 5.2)\nprint(my_result)\nmy_result = sum_two_values_with_return(10, 5)\nprint(my_result)\n# Función con parámetros de entrada/argumentos por clave\ndef print_name(name, surname):\n    print(f\"{name} {surname}\")\nprint_name(surname=\"Moure\", name=\"Brais\")\n# Función con parámetros de entrada/argumentos por defecto\ndef print_name_with_default(name, surname, alias=\"Sin alias\"):",
+        "detail": "Basico.10_functions",
+        "documentation": {}
+    },
+    {
+        "label": "my_result",
+        "kind": 5,
+        "importPath": "Basico.10_functions",
+        "description": "Basico.10_functions",
+        "peekOfCode": "my_result = sum_two_values_with_return(10, 5)\nprint(my_result)\n# Función con parámetros de entrada/argumentos por clave\ndef print_name(name, surname):\n    print(f\"{name} {surname}\")\nprint_name(surname=\"Moure\", name=\"Brais\")\n# Función con parámetros de entrada/argumentos por defecto\ndef print_name_with_default(name, surname, alias=\"Sin alias\"):\n    print(f\"{name} {surname} {alias}\")\nprint_name_with_default(\"Brais\", \"Moure\")",
+        "detail": "Basico.10_functions",
+        "documentation": {}
+    },
+    {
+        "label": "MyEmptyPerson",
+        "kind": 6,
+        "importPath": "Basico.11_classes",
+        "description": "Basico.11_classes",
+        "peekOfCode": "class MyEmptyPerson:\n    pass  # Para poder dejar la clase vacía\nprint(MyEmptyPerson)\nprint(MyEmptyPerson())\n# Clase con constructor, funciones y popiedades privadas y públicas\nclass Person:\n    def __init__(self, name, surname, alias=\"Sin alias\"):\n        self.full_name = f\"{name} {surname} ({alias})\"  # Propiedad pública\n        self.__name = name  # Propiedad privada\n    def get_name(self):",
+        "detail": "Basico.11_classes",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "Basico.11_classes",
+        "description": "Basico.11_classes",
+        "peekOfCode": "class Person:\n    def __init__(self, name, surname, alias=\"Sin alias\"):\n        self.full_name = f\"{name} {surname} ({alias})\"  # Propiedad pública\n        self.__name = name  # Propiedad privada\n    def get_name(self):\n        return self.__name\n    def walk(self):\n        print(f\"{self.full_name} está caminando\")\nmy_person = Person(\"Brais\", \"Moure\")\nprint(my_person.full_name)",
+        "detail": "Basico.11_classes",
+        "documentation": {}
+    },
+    {
+        "label": "my_person",
+        "kind": 5,
+        "importPath": "Basico.11_classes",
+        "description": "Basico.11_classes",
+        "peekOfCode": "my_person = Person(\"Brais\", \"Moure\")\nprint(my_person.full_name)\nprint(my_person.get_name())\nmy_person.walk()\nmy_other_person = Person(\"Brais\", \"Moure\", \"MoureDev\")\nprint(my_other_person.full_name)\nmy_other_person.walk()\nmy_other_person.full_name = \"Héctor de León (El loco de los perros)\"\nprint(my_other_person.full_name)\nmy_other_person.full_name = 666",
+        "detail": "Basico.11_classes",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_person",
+        "kind": 5,
+        "importPath": "Basico.11_classes",
+        "description": "Basico.11_classes",
+        "peekOfCode": "my_other_person = Person(\"Brais\", \"Moure\", \"MoureDev\")\nprint(my_other_person.full_name)\nmy_other_person.walk()\nmy_other_person.full_name = \"Héctor de León (El loco de los perros)\"\nprint(my_other_person.full_name)\nmy_other_person.full_name = 666\nprint(my_other_person.full_name)",
+        "detail": "Basico.11_classes",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_person.full_name",
+        "kind": 5,
+        "importPath": "Basico.11_classes",
+        "description": "Basico.11_classes",
+        "peekOfCode": "my_other_person.full_name = \"Héctor de León (El loco de los perros)\"\nprint(my_other_person.full_name)\nmy_other_person.full_name = 666\nprint(my_other_person.full_name)",
+        "detail": "Basico.11_classes",
+        "documentation": {}
+    },
+    {
+        "label": "my_other_person.full_name",
+        "kind": 5,
+        "importPath": "Basico.11_classes",
+        "description": "Basico.11_classes",
+        "peekOfCode": "my_other_person.full_name = 666\nprint(my_other_person.full_name)",
+        "detail": "Basico.11_classes",
+        "documentation": {}
+    },
+    {
+        "label": "numberOne",
+        "kind": 5,
+        "importPath": "Basico.12_exceptions",
+        "description": "Basico.12_exceptions",
+        "peekOfCode": "numberOne = 5\nnumberTwo = 1\nnumberTwo = \"1\"\n# Excepción base: try except\ntry:\n    print(numberOne + numberTwo)\n    print(\"No se ha producido un error\")\nexcept:\n    # Se ejecuta si se produce una excepción\n    print(\"Se ha producido un error\")",
+        "detail": "Basico.12_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "numberTwo",
+        "kind": 5,
+        "importPath": "Basico.12_exceptions",
+        "description": "Basico.12_exceptions",
+        "peekOfCode": "numberTwo = 1\nnumberTwo = \"1\"\n# Excepción base: try except\ntry:\n    print(numberOne + numberTwo)\n    print(\"No se ha producido un error\")\nexcept:\n    # Se ejecuta si se produce una excepción\n    print(\"Se ha producido un error\")\n# Flujo completo de una excepción: try except else finally",
+        "detail": "Basico.12_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "numberTwo",
+        "kind": 5,
+        "importPath": "Basico.12_exceptions",
+        "description": "Basico.12_exceptions",
+        "peekOfCode": "numberTwo = \"1\"\n# Excepción base: try except\ntry:\n    print(numberOne + numberTwo)\n    print(\"No se ha producido un error\")\nexcept:\n    # Se ejecuta si se produce una excepción\n    print(\"Se ha producido un error\")\n# Flujo completo de una excepción: try except else finally\ntry:",
+        "detail": "Basico.12_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "sumValue",
+        "kind": 2,
+        "importPath": "Basico.my_module",
+        "description": "Basico.my_module",
+        "peekOfCode": "def sumValue(numberOne, numberTwo, numberThree):\n    print(numberOne + numberTwo + numberThree)\ndef printValue(value):\n    print(value)",
+        "detail": "Basico.my_module",
+        "documentation": {}
+    },
+    {
+        "label": "printValue",
+        "kind": 2,
+        "importPath": "Basico.my_module",
+        "description": "Basico.my_module",
+        "peekOfCode": "def printValue(value):\n    print(value)",
+        "detail": "Basico.my_module",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 5,
+        "importPath": "UDF",
+        "description": "UDF",
+        "peekOfCode": "square = lambda n : n*n\nwith sqlite3.connect(\"Northwind.db\") as conn:\n    conn.create_function(\"square\",1,square)\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT *,square(Price) as Precio_al_cuadrado FROM Products WHERE Price != 0\")\n    results = cursor.fetchall()\n    results_df = pd.DataFrame(results)\n    print(results_df)",
+        "detail": "UDF",
+        "documentation": {}
+    }
+]
