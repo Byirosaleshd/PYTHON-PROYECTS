@@ -825,6 +825,51 @@
         "documentation": {}
     },
     {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "rentabilidad",
+        "description": "rentabilidad",
+        "peekOfCode": "conn = sqlite3.connect(\"Northwind.db\")\nquery = '''\n    SELECT ProductName, SUM(Price * Quantity) as Revenue\n    FROM OrderDetails od\n    JOIN Products p ON p.Product.ID = od.ProductID\n    GROUP BY od.ProductID\n    ORDER BY Revenue DESC\n    LIMIT 10\n'''\n#top_products = pd.read_sql_query(query,conn)",
+        "detail": "rentabilidad",
+        "documentation": {}
+    },
+    {
+        "label": "query",
+        "kind": 5,
+        "importPath": "rentabilidad",
+        "description": "rentabilidad",
+        "peekOfCode": "query = '''\n    SELECT ProductName, SUM(Price * Quantity) as Revenue\n    FROM OrderDetails od\n    JOIN Products p ON p.Product.ID = od.ProductID\n    GROUP BY od.ProductID\n    ORDER BY Revenue DESC\n    LIMIT 10\n'''\n#top_products = pd.read_sql_query(query,conn)\n#top_products.plot(x=\"ProductName\",y=\"Revenue\",kind=\"bar\",figsize=(10,5),legend=False)",
+        "detail": "rentabilidad",
+        "documentation": {}
+    },
+    {
+        "label": "#top_products",
+        "kind": 5,
+        "importPath": "rentabilidad",
+        "description": "rentabilidad",
+        "peekOfCode": "#top_products = pd.read_sql_query(query,conn)\n#top_products.plot(x=\"ProductName\",y=\"Revenue\",kind=\"bar\",figsize=(10,5),legend=False)\n#plt.title(\"10 Productos mas rentables\")\n#plt.xlab(\"Productos\")\n#plt.ylabel(\"Revenue\")\n#Plt.xticks(rotation=90)\n#plt.show()\n#Obteniendo los 10 empleados mas efectivos\n#query2 = '''\n#    SELECT FirstName || \"\" || LastName as Employee, COUNT(*)",
+        "detail": "rentabilidad",
+        "documentation": {}
+    },
+    {
+        "label": "#query2",
+        "kind": 5,
+        "importPath": "rentabilidad",
+        "description": "rentabilidad",
+        "peekOfCode": "#query2 = '''\n#    SELECT FirstName || \"\" || LastName as Employee, COUNT(*)\n#    FROM Orders o\n#    JOIN Employees e\n#    ON e.EmployeeID = o.EmployeeID\n#    GROUP BY o.EmployeeID\n#    ORDER BY Total DESC\n#    LIMIT 10\n#'''\n#top_employees = pd.read_sql_query(query2,conn)",
+        "detail": "rentabilidad",
+        "documentation": {}
+    },
+    {
+        "label": "#top_employees",
+        "kind": 5,
+        "importPath": "rentabilidad",
+        "description": "rentabilidad",
+        "peekOfCode": "#top_employees = pd.read_sql_query(query2,conn)\n#top_products.plot(x=\"Employee\",y=\"Total\",kind=\"bar\",figsize=(10,5),legend=False)\n#plt.title(\"10 Empleados mas efectivos\")\n#plt.xlab(\"Empleados\")\n#plt.ylabel(\"Total vendido\")\n#Plt.xticks(rotation=45)\n#plt.show()",
+        "detail": "rentabilidad",
+        "documentation": {}
+    },
+    {
         "label": "square",
         "kind": 5,
         "importPath": "UDF",
